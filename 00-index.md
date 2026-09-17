@@ -1,36 +1,31 @@
-# IMA AI Hub — Knowledge Base Index
+# meilen-hub — Knowledge Base Index
 
-**Repo:** meilen-hub · **Owner:** meilen (CEO)
+**Owner:** meilen (staff, IMA AI)
 **Version:** 0.1
 **Last Updated:** 2026-09-17
 
-The hub's own KB — org context, product/brand index, client records. Org standards live in `imaai-standards` (register `IMA-GOV-REF-01`) and are cited by ID, never duplicated here.
+meilen's own project/task register — reorganized and standardized to follow the `laundryhub-00` mini-hub pattern, per the IMA AI owner's instruction. Org standards live in `imaai-standards` (register `IMA-GOV-REF-01`) and are cited by ID, never duplicated here.
 
 ## File Structure
 
 ```
-00-index.md               this file — entry point and load guide
-01-group-overview.md      IMA AI structure, ventures, repo map                              (v0.1)
-04-xx-*.md                products / companions — not yet created
-05-xxx-xx-*.md            brands we own — not yet created
-06-xxx-xx-*.md            client records (CEO-only; commercial terms live only here)        — not yet created
-99-pending.md             org pending items
+00-index.md         this file — entry point and load guide
+01-overview.md       what this hub is for, scope, confidentiality rule                     (v0.1)
+03-projects.md       project register (IMA-INF-STD-01 VIII.1) — one code per task/engagement
+deliverables/        human-facing outputs
+drafts/              briefs/proposals in transit (IMA-AIO-STD-02 courier; imaai-standards proposals go in THAT repo's own drafts/, not here)
 ```
 
 ## Load by Task
 
 ```
-Any work in this repo          CLAUDE.md (synced standards block) + 01-group-overview.md
-Standards question              imaai-standards/00-register.md (register + task index)
-Client commercial terms         the relevant 06-xxx file (once created) — never elsewhere
-New project / repo              IMA-AIO-STD-01 New Project Checklist
-Cross-project handoff           IMA-AIO-STD-02
+Any work in this repo          CLAUDE.md (synced standards block) + 01-overview.md
+Standards question               imaai-standards/00-register.md (register + task index)
+Which task is this / status      03-projects.md
 ```
 
 ## Rules
 
-- Org standards apply in full — masters in `imaai-standards` (read-write from THIS project only; every other project is read-only there).
-- No commercial terms outside `06-xxx` files, and never invented — only what the CEO supplies directly.
-- No end-customer PII anywhere in this repo.
-- Index files carry no Pending section; content files always do (`IMA-INF-STD-01` Part II.1).
-- Numbers sequential, never reused (`IMA-INF-STD-01` Part II.2).
+- Org standards apply in full — masters in `imaai-standards` (read-only; gaps → proposal in `imaai-standards/drafts/`, `IMA-AIO-STD-02`).
+- No commercial terms, no end-customer PII in this repo.
+- Index files carry no Pending section; content files always do (`IMA-INF-STD-01` II.1).
