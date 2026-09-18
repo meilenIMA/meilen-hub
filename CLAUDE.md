@@ -16,6 +16,7 @@ Before ANY work, read:
 ## Current State · ▶ Resume
 
 - 2026-09-17 — Repo scaffolded. **Corrected same day:** the first pass wrongly modeled this repo as the org's governance hub (claimed write-authority over `imaai-standards`, "mount-edited" status). Rebuilt to follow the `laundryhub-00` mini-hub pattern instead — this is meilen's own project/task register, nothing more; `imaai-standards` is read-only from here like from any other project.
+- 2026-09-18 — Registered `wht-2609-register` (meilen's WHT tracking folder) in `03-projects.md`, per the `bzubzu-2609-master-consolidation` registration pattern. No files moved or edited; the folder stays where it is.
 - ▶ **Next:** fill `03-projects.md` as more tasks are formalized.
 
 ---
