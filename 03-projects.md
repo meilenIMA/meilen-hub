@@ -1,7 +1,7 @@
 # 03 — meilen-hub: Project Register
 
 **Register per `IMA-INF-STD-01` Part VIII.1.** One code per engagement/task, set when first tracked, never changed or reused.
-**Version:** 0.3 · **Updated:** 2026-09-29
+**Version:** 0.4 · **Updated:** 2026-09-29
 
 ---
 
@@ -17,4 +17,4 @@
 - [ ] Register more of meilen's existing tasks here as they're identified
 - [ ] Decide whether to consolidate the `Old ref/` copies in `meilen-wht/` (same version-sprawl pattern as `captured-master.xlsx`) — flagged 2026-09-18, not actioned
 - [ ] `meilen-wht`'s vendor list closely overlaps the `tax`/`wht` head in the draft `IMA-FIN-STD-01`/`IMA-FIN-PRO-01` financial-records system — worth checking with the CEO whether these should become the same record; not this project's call to decide (flagged 2026-09-18)
-- [ ] User named "BZU BZU data" (a Cowork project) as the push target but wasn't sure which folder it's connected to; pushed to `bzubzu-data-screencap` on the evidence (stale file + matching format), not `bzubzu-data` (wrong file format for that repo) — confirm with meilen which one "BZU BZU data" actually is (flagged 2026-09-29)
+- [ ] Confirmed: the "BZU BZU data" Cowork project is connected to the `bzubzu-data` git repo (its Progress panel shows `CLAUDE.md`/`README.md` from that folder). `captured-master.xlsx` was **not** pushed there — meilen chose to hold off since it doesn't match the repo's documented "raw CSV only" convention, and a separate, already-active session in the `BZU BZU data` project itself may be handling related work (flagged 2026-09-29)
